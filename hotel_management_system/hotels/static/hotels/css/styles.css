@@ -1,0 +1,18 @@
+.item-card {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.code-icon {
+    width: 100px;
+    height: 50px;
+    background-color: #627efc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    margin-right: 15px;
+    border-radius: 5px;
+}

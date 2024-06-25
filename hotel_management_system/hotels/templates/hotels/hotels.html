@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+{% block content %}
+
+<div class="container mt-5">
+    <div class="row mb-4">
+        <div class="col-md-9">
+            <h1 class="text-start">Hotels in {{ city.name }}</h1>
+        </div>
+        <div class="col-md-3 d-flex align-items-center">
+            <a href="{% url 'cities' %}" class="w-100"><button class="btn btn-secondary btn-block w-100">Back to Cities</button></a>
+        </div>
+    </div>
+
+    <div class="row mb-4">
+        <div class="col-md-9">
+            <input type="text" class="form-control" placeholder="Enter Hotel">
+        </div>
+        <div class="col-md-3">
+            <button class="btn btn-primary btn-block">Search</button>
+        </div>
+    </div>
+
+    {% for hotel in hotels %}
+    <div class="item-card d-flex align-items-center">
+        <div class="col-md-2 text-center">
+            <div class="code-icon">{{ hotel.code }}</div>
+        </div>
+        <div class="col-md-10">
+            <h4 class="text-left">{{ hotel.name }}</h4>
+        </div>
+    </div>
+    {% endfor %}
+
+{% include "hotels/includes/pagination.html" with items=hotels %}
+
+</div>
+{% endblock %}

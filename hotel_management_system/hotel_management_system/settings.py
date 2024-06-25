@@ -25,7 +25,10 @@ SECRET_KEY = 'django-insecure-)ce5dwh$rln*6#9^heucll7+(f^ms74_z%s@=@g365zj&qext!
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'localhost',
+    '127.0.0.1',
+]
 
 
 # Application definition
@@ -38,6 +41,10 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
+    # libraries
+    'django_crontab',
+
+    # local apps
     'hotels.apps.HotelsConfig',
 ]
 
@@ -56,7 +63,9 @@ ROOT_URLCONF = 'hotel_management_system.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [
+            BASE_DIR / 'hotel_management_system/templates',
+        ],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
