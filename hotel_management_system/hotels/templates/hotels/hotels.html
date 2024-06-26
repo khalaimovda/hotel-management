@@ -11,14 +11,16 @@
         </div>
     </div>
 
-    <div class="row mb-4">
-        <div class="col-md-9">
-            <input type="text" class="form-control" placeholder="Enter Hotel">
+    <form method="get" action="">
+        <div class="row mb-4">
+            <div class="col-md-9">
+                <input type="text" class="form-control" placeholder="Enter Hotel" name="search" value="{{ search|default_if_none:'' }}">
+            </div>
+            <div class="col-md-3">
+                <button class="btn btn-primary btn-block" type="submit">Search</button>
+            </div>
         </div>
-        <div class="col-md-3">
-            <button class="btn btn-primary btn-block">Search</button>
-        </div>
-    </div>
+    </form>
 
     {% for hotel in hotels %}
     <div class="item-card d-flex align-items-center">
@@ -31,7 +33,7 @@
     </div>
     {% endfor %}
 
-{% include "hotels/includes/pagination.html" with items=hotels %}
+{% include "hotels/includes/pagination.html" with items=hotels search=search %}
 
 </div>
 {% endblock %}

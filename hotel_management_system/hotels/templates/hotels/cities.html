@@ -4,14 +4,16 @@
 <div class="container mt-5">
     <h1 class="text-start">Choose a city</h1>
 
-    <div class="row mb-4">
-        <div class="col-md-9">
-            <input type="text" class="form-control" placeholder="Enter City">
+    <form method="get" action="">
+        <div class="row mb-4">
+            <div class="col-md-9">
+                <input type="text" class="form-control" placeholder="Enter City" name="search" value="{{ search|default_if_none:'' }}">
+            </div>
+            <div class="col-md-3">
+                <button class="btn btn-primary btn-block" type="submit">Search</button>
+            </div>
         </div>
-        <div class="col-md-3">
-            <button class="btn btn-primary btn-block">Search</button>
-        </div>
-    </div>
+    </form>
 
     {% for city in cities %}
     <div class="item-card d-flex align-items-center">
@@ -27,7 +29,7 @@
     </div>
     {% endfor %}
 
-{% include "hotels/includes/pagination.html" with items=cities %}
+{% include "hotels/includes/pagination.html" with items=cities search=search%}
 
 </div>
 {% endblock %}

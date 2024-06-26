@@ -10,7 +10,18 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/4.0/ref/settings/
 """
 
+import os
 from pathlib import Path
+
+from dotenv import load_dotenv
+# from django.db.backends.postgresql.psycopg_any import IsolationLevel
+
+load_dotenv()
+
+CITY_FETCH_URL = os.getenv(key='CITY_FETCH_URL')
+HOTEL_FETCH_URL = os.getenv(key='HOTEL_FETCH_URL')
+FETCH_USERNAME = os.getenv(key='FETCH_USERNAME')
+FETCH_PASSWORD = os.getenv(key='FETCH_PASSWORD')
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -80,6 +91,8 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'hotel_management_system.wsgi.application'
 
+# Pagination
+ITEMS_PER_PAGE = 15
 
 # Database
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
@@ -91,6 +104,65 @@ DATABASES = {
     }
 }
 
+
+# CronJobs
+CRONJOBS = [
+    # fetch city and hotel data every day
+    (
+        '0 0 * * *',
+        'hotels.jobs.fetch_hotel_data',
+        [],
+        {
+            'city_url': CITY_FETCH_URL,
+            'hotel_url': HOTEL_FETCH_URL,
+            'username': FETCH_USERNAME,
+            'password': FETCH_PASSWORD,
+        }
+    ),
+]
+
+# Logging
+LOGGING = {
+    'version': 1,
+    'disable_existing_loggers': False,
+    'formatters': {
+        'verbose': {
+            'format': '{levelname} {asctime} {module} {message}',
+            'style': '{',
+            'datefmt': '%Y-%m-%d %H:%M:%S',
+        },
+        'simple': {
+            'format': '{levelname} {asctime} {message}',
+            'style': '{',
+            'datefmt': '%Y-%m-%d %H:%M:%S',
+        },
+    },
+    'handlers': {
+        'console': {
+            'level': 'DEBUG',
+            'class': 'logging.StreamHandler',
+            'formatter': 'simple',
+        },
+        'file': {
+            'level': 'DEBUG',
+            'class': 'logging.FileHandler',
+            'filename': BASE_DIR / 'logfile.log',
+            'formatter': 'verbose',
+        },
+    },
+    'loggers': {
+        'django': {
+            'handlers': ['file', 'console'],
+            'level': 'ERROR',
+            'propagate': True,
+        },
+        'hotels': {
+            'handlers': ['console', 'file'],
+            'level': 'INFO',
+            'propagate': True
+        }
+    },
+}
 
 # Password validation
 # https://docs.djangoproject.com/en/4.0/ref/settings/#auth-password-validators

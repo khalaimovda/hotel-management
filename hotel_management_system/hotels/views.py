@@ -1,7 +1,8 @@
-from django.http import HttpResponse, HttpRequest, Http404
-from django.shortcuts import render, redirect
+from django.conf import settings
 from django.core.paginator import Paginator
 from django.db.models import ObjectDoesNotExist
+from django.http import HttpResponse, HttpRequest, Http404
+from django.shortcuts import render, redirect
 
 from .models import City, Hotel
 
@@ -11,12 +12,18 @@ def index(request: HttpRequest) -> HttpResponse:
 
 
 def cities(request: HttpRequest) -> HttpResponse:
-    cities = City.objects.all()
-    paginator = Paginator(object_list=cities, per_page=1)
+    search = request.GET.get('search')
+    if search:
+        cities = City.objects.filter(name__icontains=search)
+    else:
+        cities = City.objects.all()
+    cities = cities.order_by('code', 'name')
+    paginator = Paginator(object_list=cities, per_page=settings.ITEMS_PER_PAGE)
     page_number = request.GET.get('page')
     cities = paginator.get_page(page_number)
     data = {
         'title': 'Cities',
+        'search': search,
         'cities': cities,
     }
     return render(request=request, template_name='hotels/cities.html', context=data)
@@ -27,12 +34,19 @@ def hotels(request: HttpRequest, city_code: str) -> HttpResponse:
         city = City.objects.get(code=city_code)
     except ObjectDoesNotExist as e:
         raise Http404('City code does not exist')
-    hotels = Hotel.objects.filter(city__code=city_code)
-    paginator = Paginator(object_list=hotels, per_page=1)
+
+    search = request.GET.get('search')
+    if search:
+        hotels = Hotel.objects.filter(city__code=city_code, name__icontains=search)
+    else:
+        hotels = Hotel.objects.filter(city__code=city_code)
+    hotels = hotels.order_by('code', 'name')
+    paginator = Paginator(object_list=hotels, per_page=settings.ITEMS_PER_PAGE)
     page_number = request.GET.get('page')
     hotels = paginator.get_page(page_number)
     data = {
         'title': 'Hotels',
+        'search': search,
         'city': city,
         'hotels': hotels,
     }
