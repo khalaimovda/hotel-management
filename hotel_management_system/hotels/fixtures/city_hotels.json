@@ -1,0 +1,1814 @@
+[
+  {
+    "model": "hotels.city",
+    "pk": "27694fa6-55a3-47c6-8971-9ffb48041d17",
+    "fields": {
+      "code": "AMS",
+      "name": "Amsterdam"
+    }
+  },
+  {
+    "model": "hotels.city",
+    "pk": "7b07bdc0-0194-498e-ac5e-7c7bacfe6e4d",
+    "fields": {
+      "code": "BAR",
+      "name": "Barcelona"
+    }
+  },
+  {
+    "model": "hotels.city",
+    "pk": "85b76d3b-1ef9-4869-8b87-694401bb8c7a",
+    "fields": {
+      "code": "BER",
+      "name": "Berlijn"
+    }
+  },
+  {
+    "model": "hotels.city",
+    "pk": "9d760e38-e0d7-4cf6-bb8e-1f19fbbf36a9",
+    "fields": {
+      "code": "ANT",
+      "name": "Antwerpen"
+    }
+  },
+  {
+    "model": "hotels.city",
+    "pk": "a9ccfaf8-7032-460e-9aaa-1743ee0df5db",
+    "fields": {
+      "code": "BAK",
+      "name": "Bangkok"
+    }
+  },
+  {
+    "model": "hotels.city",
+    "pk": "acc538a5-4786-4760-b83d-6095b5458463",
+    "fields": {
+      "code": "ATH",
+      "name": "Athene"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "0058ddd0-bf20-4381-afcb-c38fe6dd6bf9",
+    "fields": {
+      "code": "BAR02",
+      "name": "Adagio",
+      "city": "7b07bdc0-0194-498e-ac5e-7c7bacfe6e4d"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "0118604e-9ab3-4155-8c84-2fcc08a44d07",
+    "fields": {
+      "code": "BAR66",
+      "name": "AB Skipper",
+      "city": "7b07bdc0-0194-498e-ac5e-7c7bacfe6e4d"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "030a8a3d-add9-4f32-a78a-5c10f661bf88",
+    "fields": {
+      "code": "ANT14",
+      "name": "Ibis Antwerpen Centrum",
+      "city": "9d760e38-e0d7-4cf6-bb8e-1f19fbbf36a9"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "0336c446-37a3-4175-b5b5-cadede87683d",
+    "fields": {
+      "code": "BER25",
+      "name": "Holiday Inn Berlin City East",
+      "city": "85b76d3b-1ef9-4869-8b87-694401bb8c7a"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "04c2154b-590f-4b27-86f1-19de30b973ab",
+    "fields": {
+      "code": "BAR58",
+      "name": "Napols",
+      "city": "7b07bdc0-0194-498e-ac5e-7c7bacfe6e4d"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "05042030-8a8c-4f19-97f8-2ed533cade7a",
+    "fields": {
+      "code": "BER07",
+      "name": "Park Inn Alexanderplatz",
+      "city": "85b76d3b-1ef9-4869-8b87-694401bb8c7a"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "05155fed-aaac-451f-abbc-130e0c58c750",
+    "fields": {
+      "code": "BAR80",
+      "name": "Corders",
+      "city": "7b07bdc0-0194-498e-ac5e-7c7bacfe6e4d"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "09cc301f-21e4-41ec-840c-67dd3a255512",
+    "fields": {
+      "code": "BAK22",
+      "name": "Swissotel Nai Lert Park Bangkok",
+      "city": "a9ccfaf8-7032-460e-9aaa-1743ee0df5db"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "0af6cc8f-a2a2-4853-9f16-0f9862005a2b",
+    "fields": {
+      "code": "BARB5",
+      "name": "NH Les Corts",
+      "city": "7b07bdc0-0194-498e-ac5e-7c7bacfe6e4d"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "0b0817d6-dd76-49bf-a129-155f9e44eb93",
+    "fields": {
+      "code": "ANT96",
+      "name": "Express by Holiday Inn",
+      "city": "9d760e38-e0d7-4cf6-bb8e-1f19fbbf36a9"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "0b555afc-692d-4060-acd5-285467f6a753",
+    "fields": {
+      "code": "BARB7",
+      "name": "AB Viladomat",
+      "city": "7b07bdc0-0194-498e-ac5e-7c7bacfe6e4d"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "0c5066cd-00db-4920-ba90-6fd5814375cf",
+    "fields": {
+      "code": "BAR18",
+      "name": "Decimononico/Pescateria",
+      "city": "7b07bdc0-0194-498e-ac5e-7c7bacfe6e4d"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "0cb4d5f8-1cdc-490e-ad83-db5996735aae",
+    "fields": {
+      "code": "BAR61",
+      "name": "Rialto",
+      "city": "7b07bdc0-0194-498e-ac5e-7c7bacfe6e4d"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "0daa6d8e-d986-4f90-bcdd-3fb678ec86c3",
+    "fields": {
+      "code": "ANT95",
+      "name": "Corinthia Antwerp",
+      "city": "9d760e38-e0d7-4cf6-bb8e-1f19fbbf36a9"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "11275337-8e71-453f-b78f-f4458b7315d1",
+    "fields": {
+      "code": "BARA3",
+      "name": "Santa Marta",
+      "city": "7b07bdc0-0194-498e-ac5e-7c7bacfe6e4d"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "14255c77-b3e5-49e7-a5ce-70bd2ed43a51",
+    "fields": {
+      "code": "ANT08",
+      "name": "Park Plaza Astrid Antwerp",
+      "city": "9d760e38-e0d7-4cf6-bb8e-1f19fbbf36a9"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "14dc913b-6bbc-4d9a-ad20-f459286bc24f",
+    "fields": {
+      "code": "ATH02",
+      "name": "Amaryllis",
+      "city": "acc538a5-4786-4760-b83d-6095b5458463"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "1537a0b0-e7ea-4d28-bcf5-bc97f30ccb35",
+    "fields": {
+      "code": "ANT06",
+      "name": "Residence",
+      "city": "9d760e38-e0d7-4cf6-bb8e-1f19fbbf36a9"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "16069ad5-708a-4ddb-aaec-428a66d666d3",
+    "fields": {
+      "code": "BAR67",
+      "name": "Abrevadero",
+      "city": "7b07bdc0-0194-498e-ac5e-7c7bacfe6e4d"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "1655813d-ce71-445f-9343-6592146bfbbd",
+    "fields": {
+      "code": "BER11",
+      "name": "Sorat Ambassador",
+      "city": "85b76d3b-1ef9-4869-8b87-694401bb8c7a"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "16cea558-d7fb-40a4-a713-e0a7b87bfd1b",
+    "fields": {
+      "code": "BARB6",
+      "name": "Confortel Barcelona",
+      "city": "7b07bdc0-0194-498e-ac5e-7c7bacfe6e4d"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "174bb046-2614-46bc-b52d-48d01f9babb4",
+    "fields": {
+      "code": "ANT05",
+      "name": "Golden Tulip Antwerp Centre",
+      "city": "9d760e38-e0d7-4cf6-bb8e-1f19fbbf36a9"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "17a415e7-9560-4431-9740-8e48df708584",
+    "fields": {
+      "code": "BAR10",
+      "name": "Junior",
+      "city": "7b07bdc0-0194-498e-ac5e-7c7bacfe6e4d"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "18ea63d5-3a33-4b0d-a275-86bb1ec77664",
+    "fields": {
+      "code": "BAR97",
+      "name": "Bel Art",
+      "city": "7b07bdc0-0194-498e-ac5e-7c7bacfe6e4d"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "19f72a26-c2bb-4d00-b0de-48780d2ec054",
+    "fields": {
+      "code": "BAK24",
+      "name": "Triple Two Silom (222)",
+      "city": "a9ccfaf8-7032-460e-9aaa-1743ee0df5db"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "1a757556-c4f8-4dc6-95f8-87f43f8a21e1",
+    "fields": {
+      "code": "ANT77",
+      "name": "Carlton",
+      "city": "9d760e38-e0d7-4cf6-bb8e-1f19fbbf36a9"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "1d39fef9-6584-4827-8058-7c18c7cbd62b",
+    "fields": {
+      "code": "BER24",
+      "name": "Domicil",
+      "city": "85b76d3b-1ef9-4869-8b87-694401bb8c7a"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "1df33690-3464-4d59-ab74-8a9e3bf7409c",
+    "fields": {
+      "code": "BAR68",
+      "name": "Transit",
+      "city": "7b07bdc0-0194-498e-ac5e-7c7bacfe6e4d"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "1e806ef7-7966-48a5-92a9-c26247e93154",
+    "fields": {
+      "code": "BAR90",
+      "name": "Avinyo",
+      "city": "7b07bdc0-0194-498e-ac5e-7c7bacfe6e4d"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "1ea940f0-ec4f-4fdd-a4e3-a05bfa5e9ae8",
+    "fields": {
+      "code": "ANT78",
+      "name": "Astoria",
+      "city": "9d760e38-e0d7-4cf6-bb8e-1f19fbbf36a9"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "1f952af0-dd55-4650-a4b0-c8ce681c75ff",
+    "fields": {
+      "code": "ATH14",
+      "name": "St. George Lycabettus",
+      "city": "acc538a5-4786-4760-b83d-6095b5458463"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "217e723e-73ae-4d30-bee0-ebcad747d8dd",
+    "fields": {
+      "code": "BAR93",
+      "name": "Amrey Sant Pau",
+      "city": "7b07bdc0-0194-498e-ac5e-7c7bacfe6e4d"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "26507758-deff-43d6-8a0b-8fce8d61abba",
+    "fields": {
+      "code": "BAR13",
+      "name": "AB Viladomat",
+      "city": "7b07bdc0-0194-498e-ac5e-7c7bacfe6e4d"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "26c5633c-cb1f-4c4a-b20c-33ffdf9813a5",
+    "fields": {
+      "code": "BAR40",
+      "name": "America",
+      "city": "7b07bdc0-0194-498e-ac5e-7c7bacfe6e4d"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "2921d5d7-c0ce-4ccd-8b0a-da9e0f756f29",
+    "fields": {
+      "code": "ANT10",
+      "name": "Ramada Plaza",
+      "city": "9d760e38-e0d7-4cf6-bb8e-1f19fbbf36a9"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "2ac50d77-e3a3-4ba7-8d82-88c7645dd45c",
+    "fields": {
+      "code": "BAR43",
+      "name": "Sansi Diputacio",
+      "city": "7b07bdc0-0194-498e-ac5e-7c7bacfe6e4d"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "2af7aba5-f1da-4236-a9cc-a6afa9842fa8",
+    "fields": {
+      "code": "ATH10",
+      "name": "Stanley",
+      "city": "acc538a5-4786-4760-b83d-6095b5458463"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "2c09944e-12e7-4061-8d75-4565f227fefd",
+    "fields": {
+      "code": "BER15",
+      "name": "Lindenberger Hof",
+      "city": "85b76d3b-1ef9-4869-8b87-694401bb8c7a"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "2c0f0685-f7a1-439a-b73a-da615dbae253",
+    "fields": {
+      "code": "BARB3",
+      "name": "Arago 565",
+      "city": "7b07bdc0-0194-498e-ac5e-7c7bacfe6e4d"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "2d68bb73-c0e4-4af0-a15b-fd77bd8cbe86",
+    "fields": {
+      "code": "BARA1",
+      "name": "Nouvel",
+      "city": "7b07bdc0-0194-498e-ac5e-7c7bacfe6e4d"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "2eb6c365-3f4b-4383-b5ca-d26e8bf895fe",
+    "fields": {
+      "code": "BARA2",
+      "name": "Lleo",
+      "city": "7b07bdc0-0194-498e-ac5e-7c7bacfe6e4d"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "2fb5adee-92ee-4e17-b516-2408d43ea437",
+    "fields": {
+      "code": "BER02",
+      "name": "Bogota",
+      "city": "85b76d3b-1ef9-4869-8b87-694401bb8c7a"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "30519d26-b3fa-4dae-977e-fd90aa0a34c3",
+    "fields": {
+      "code": "BAR64",
+      "name": "Cristal Palace",
+      "city": "7b07bdc0-0194-498e-ac5e-7c7bacfe6e4d"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "30bb64e6-e64a-4846-9728-b91e57a0aae9",
+    "fields": {
+      "code": "BAR36",
+      "name": "Suizo",
+      "city": "7b07bdc0-0194-498e-ac5e-7c7bacfe6e4d"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "30fc8d4c-3921-48c8-8dbe-f6a71a954d03",
+    "fields": {
+      "code": "BAR50",
+      "name": "Avenida Palace",
+      "city": "7b07bdc0-0194-498e-ac5e-7c7bacfe6e4d"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "31754068-6458-4890-b606-b29e87984dd0",
+    "fields": {
+      "code": "ATH04",
+      "name": "Apollo",
+      "city": "acc538a5-4786-4760-b83d-6095b5458463"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "33a7f375-6dc9-4f28-a08b-c4a107fd7e59",
+    "fields": {
+      "code": "BER05",
+      "name": "Comfort Lichtenberg",
+      "city": "85b76d3b-1ef9-4869-8b87-694401bb8c7a"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "33fd7387-ecc2-4a9c-8d7d-6a2528955adf",
+    "fields": {
+      "code": "BAR82",
+      "name": "Confortel Auditori",
+      "city": "7b07bdc0-0194-498e-ac5e-7c7bacfe6e4d"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "37752384-ebfb-4339-bcf6-a5413ff7dcb5",
+    "fields": {
+      "code": "BAR44",
+      "name": "Condestable",
+      "city": "7b07bdc0-0194-498e-ac5e-7c7bacfe6e4d"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "38020376-101f-4f5c-a8db-46f43a5ccdd8",
+    "fields": {
+      "code": "BER09",
+      "name": "Best Western Berlin Mitte",
+      "city": "85b76d3b-1ef9-4869-8b87-694401bb8c7a"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "38c29608-6e45-4ba9-9595-67b3b97e141d",
+    "fields": {
+      "code": "AMS02",
+      "name": "Novotel Amsterdam Airport",
+      "city": "27694fa6-55a3-47c6-8971-9ffb48041d17"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "397fb8f9-3687-4c7b-bd05-0648c6e71bf1",
+    "fields": {
+      "code": "BAR53",
+      "name": "Casa Fuster",
+      "city": "7b07bdc0-0194-498e-ac5e-7c7bacfe6e4d"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "3f43a7a9-a00b-4f66-8c5d-06f3b5891171",
+    "fields": {
+      "code": "BAR55",
+      "name": "Comercio",
+      "city": "7b07bdc0-0194-498e-ac5e-7c7bacfe6e4d"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "3fb9f87c-fbc8-4f38-997e-4f600f45778d",
+    "fields": {
+      "code": "BAR79",
+      "name": "Condes de Barcelona",
+      "city": "7b07bdc0-0194-498e-ac5e-7c7bacfe6e4d"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "4065d6c8-43b9-45ad-8bcf-59d55d83b3dd",
+    "fields": {
+      "code": "ANT93",
+      "name": "Carlton",
+      "city": "9d760e38-e0d7-4cf6-bb8e-1f19fbbf36a9"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "408d6a28-ecf8-4d60-aacf-ac25a166fe4d",
+    "fields": {
+      "code": "BAR52",
+      "name": "1898",
+      "city": "7b07bdc0-0194-498e-ac5e-7c7bacfe6e4d"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "423bfde2-c34d-43ce-b7cd-8c6c3ae911fd",
+    "fields": {
+      "code": "ATH08",
+      "name": "Candia",
+      "city": "acc538a5-4786-4760-b83d-6095b5458463"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "4295354e-fde4-45a0-9b21-7f8afebbdbd1",
+    "fields": {
+      "code": "BAK73",
+      "name": "Holiday Inn Silom",
+      "city": "a9ccfaf8-7032-460e-9aaa-1743ee0df5db"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "43323e58-81e4-4645-8e5b-78a474a3f404",
+    "fields": {
+      "code": "BER17",
+      "name": "Innside Premium",
+      "city": "85b76d3b-1ef9-4869-8b87-694401bb8c7a"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "4441433d-dd39-4eb8-94bb-612c18a91a3b",
+    "fields": {
+      "code": "BAR94",
+      "name": "Barcelona Center",
+      "city": "7b07bdc0-0194-498e-ac5e-7c7bacfe6e4d"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "44f2e5c5-2b07-44fb-8a17-e9e47c3e2897",
+    "fields": {
+      "code": "BAR92",
+      "name": "Marina",
+      "city": "7b07bdc0-0194-498e-ac5e-7c7bacfe6e4d"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "45bede02-6adf-446f-83ff-cab89e4af614",
+    "fields": {
+      "code": "BAR41",
+      "name": "Icaria",
+      "city": "7b07bdc0-0194-498e-ac5e-7c7bacfe6e4d"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "48b77258-8774-466b-9abf-f5ab8f99539b",
+    "fields": {
+      "code": "BAR85",
+      "name": "Catalonia Albinoni",
+      "city": "7b07bdc0-0194-498e-ac5e-7c7bacfe6e4d"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "49ffd56e-75da-40ce-b008-d948241cda36",
+    "fields": {
+      "code": "BAR99",
+      "name": "Aston",
+      "city": "7b07bdc0-0194-498e-ac5e-7c7bacfe6e4d"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "4a920b22-6495-4b3d-918e-d4ce6b4ee3b5",
+    "fields": {
+      "code": "BAR69",
+      "name": "Barcelona Ramblas",
+      "city": "7b07bdc0-0194-498e-ac5e-7c7bacfe6e4d"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "4ac78dc5-7c53-41b3-a5f3-6dcea856afcc",
+    "fields": {
+      "code": "BER23",
+      "name": "Villa Kastania",
+      "city": "85b76d3b-1ef9-4869-8b87-694401bb8c7a"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "4c72f90f-aa86-43ef-9646-31b65eeb063b",
+    "fields": {
+      "code": "BAK72",
+      "name": "Swissotel Nai Lert Park Bangkok",
+      "city": "a9ccfaf8-7032-460e-9aaa-1743ee0df5db"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "4cbcb968-df18-4a77-a266-28a445e1e0bd",
+    "fields": {
+      "code": "BAR65",
+      "name": "Grand Marina",
+      "city": "7b07bdc0-0194-498e-ac5e-7c7bacfe6e4d"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "50bb3d9c-8bdd-47db-b34b-ad7cb5976356",
+    "fields": {
+      "code": "BAR83",
+      "name": "Gran Ronda",
+      "city": "7b07bdc0-0194-498e-ac5e-7c7bacfe6e4d"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "50e1a0fe-4c3c-41ee-802b-d24a2df81cd2",
+    "fields": {
+      "code": "BAR14",
+      "name": "Front Maritim",
+      "city": "7b07bdc0-0194-498e-ac5e-7c7bacfe6e4d"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "5177d7dc-6c3b-4ae4-b0db-dc65297c15b7",
+    "fields": {
+      "code": "ANT13",
+      "name": "Tourist",
+      "city": "9d760e38-e0d7-4cf6-bb8e-1f19fbbf36a9"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "53ce9b8f-629a-4274-b97d-01453950010e",
+    "fields": {
+      "code": "BARB4",
+      "name": "Ramblas",
+      "city": "7b07bdc0-0194-498e-ac5e-7c7bacfe6e4d"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "5410692e-85a4-4267-a421-3a45517f79a4",
+    "fields": {
+      "code": "BER12",
+      "name": "Panorama",
+      "city": "85b76d3b-1ef9-4869-8b87-694401bb8c7a"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "553b6a70-5103-4294-a185-032bd93688b6",
+    "fields": {
+      "code": "BAK71",
+      "name": "Windsor Suites",
+      "city": "a9ccfaf8-7032-460e-9aaa-1743ee0df5db"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "55cde803-6fae-45f1-8eb3-a0e11cdb497b",
+    "fields": {
+      "code": "ANT11",
+      "name": "Agora",
+      "city": "9d760e38-e0d7-4cf6-bb8e-1f19fbbf36a9"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "55e8abfa-4df2-4069-99e9-9902ed90cc12",
+    "fields": {
+      "code": "BAR87",
+      "name": "Calabria",
+      "city": "7b07bdc0-0194-498e-ac5e-7c7bacfe6e4d"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "55ffb77b-7f39-4987-b0f6-1b1b7232c4c3",
+    "fields": {
+      "code": "BAR25",
+      "name": "Hesperia Metropol",
+      "city": "7b07bdc0-0194-498e-ac5e-7c7bacfe6e4d"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "56798e30-d0c9-4622-8bec-2f1379250db1",
+    "fields": {
+      "code": "BAR23",
+      "name": "Catalunya",
+      "city": "7b07bdc0-0194-498e-ac5e-7c7bacfe6e4d"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "56a3bb88-965d-4e14-a35b-ef2d7f580b43",
+    "fields": {
+      "code": "BAR54",
+      "name": "Adagio",
+      "city": "7b07bdc0-0194-498e-ac5e-7c7bacfe6e4d"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "56db87a9-a052-4ea7-a65d-15b26ba690c6",
+    "fields": {
+      "code": "BAR09",
+      "name": "Expo",
+      "city": "7b07bdc0-0194-498e-ac5e-7c7bacfe6e4d"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "588b4617-c42c-4693-af5f-4a3f977daccf",
+    "fields": {
+      "code": "BER08",
+      "name": "Novotel Dorint am Tiergarten",
+      "city": "85b76d3b-1ef9-4869-8b87-694401bb8c7a"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "5a28663c-5e1c-492b-8be6-f4d942e332a3",
+    "fields": {
+      "code": "BARA4",
+      "name": "Avinyo",
+      "city": "7b07bdc0-0194-498e-ac5e-7c7bacfe6e4d"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "5ad5bbea-3349-4c31-a6fb-304220c7f24d",
+    "fields": {
+      "code": "BAR22",
+      "name": "Santa Monica",
+      "city": "7b07bdc0-0194-498e-ac5e-7c7bacfe6e4d"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "5e0a4211-be0f-4c42-ad7b-d147c1af7d8a",
+    "fields": {
+      "code": "BER20",
+      "name": "Winter's Berlin",
+      "city": "85b76d3b-1ef9-4869-8b87-694401bb8c7a"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "64b4306a-4488-41a1-877d-7cc9e0376431",
+    "fields": {
+      "code": "BARA6",
+      "name": "H10 Universitat",
+      "city": "7b07bdc0-0194-498e-ac5e-7c7bacfe6e4d"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "64be27a6-3af1-4153-9beb-031ec426339c",
+    "fields": {
+      "code": "BARA5",
+      "name": "Rialto",
+      "city": "7b07bdc0-0194-498e-ac5e-7c7bacfe6e4d"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "64c683a3-947d-47b3-ad9d-fe3cad0ed284",
+    "fields": {
+      "code": "BAR24",
+      "name": "Medium Monegal",
+      "city": "7b07bdc0-0194-498e-ac5e-7c7bacfe6e4d"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "65c79ebe-ad91-4b45-8f22-8d1dcc139bcb",
+    "fields": {
+      "code": "BAR48",
+      "name": "Grupotel Gravina",
+      "city": "7b07bdc0-0194-498e-ac5e-7c7bacfe6e4d"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "66474e19-97c4-4c82-9106-75ae34323bb4",
+    "fields": {
+      "code": "BAR38",
+      "name": "H10 Marina Barcelona",
+      "city": "7b07bdc0-0194-498e-ac5e-7c7bacfe6e4d"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "66a63d63-3495-4a8f-8320-d0df5335438e",
+    "fields": {
+      "code": "BAR84",
+      "name": "Catalonia Ramblas",
+      "city": "7b07bdc0-0194-498e-ac5e-7c7bacfe6e4d"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "67007b72-a93a-42fd-b619-1a18e5f6989e",
+    "fields": {
+      "code": "BAR20",
+      "name": "Gutenberg",
+      "city": "7b07bdc0-0194-498e-ac5e-7c7bacfe6e4d"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "6a06ce24-0cb1-4aba-afdf-51158da8b872",
+    "fields": {
+      "code": "BAR11",
+      "name": "Amrey Diagonal",
+      "city": "7b07bdc0-0194-498e-ac5e-7c7bacfe6e4d"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "7182d5d3-8eb9-4e95-8aee-25a417089d7a",
+    "fields": {
+      "code": "BAR45",
+      "name": "Confortel Almirante",
+      "city": "7b07bdc0-0194-498e-ac5e-7c7bacfe6e4d"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "73150af7-f58d-44f9-b10e-ea48dd2b496a",
+    "fields": {
+      "code": "BAR81",
+      "name": "Tiradors",
+      "city": "7b07bdc0-0194-498e-ac5e-7c7bacfe6e4d"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "7363797a-7b92-4f54-b86f-893048530c62",
+    "fields": {
+      "code": "BAR75",
+      "name": "Tryp Apolo",
+      "city": "7b07bdc0-0194-498e-ac5e-7c7bacfe6e4d"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "76244547-f378-4526-99e5-8bbcacb8220b",
+    "fields": {
+      "code": "ANT09",
+      "name": "Antwerp Diamond",
+      "city": "9d760e38-e0d7-4cf6-bb8e-1f19fbbf36a9"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "7719d8d9-e0ba-4683-9764-8eff7f8bcec1",
+    "fields": {
+      "code": "BAR49",
+      "name": "Axel",
+      "city": "7b07bdc0-0194-498e-ac5e-7c7bacfe6e4d"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "77d341b4-7786-4514-aa88-e49f32d2e670",
+    "fields": {
+      "code": "BAR27",
+      "name": "Sagrada Familia",
+      "city": "7b07bdc0-0194-498e-ac5e-7c7bacfe6e4d"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "78ce6416-7b52-4159-bcd5-5b9a980bac7f",
+    "fields": {
+      "code": "BAR77",
+      "name": "Gotico",
+      "city": "7b07bdc0-0194-498e-ac5e-7c7bacfe6e4d"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "78f9aa81-4d22-4e58-824a-2b25c261eeae",
+    "fields": {
+      "code": "BARB9",
+      "name": "Petit Palace Museum",
+      "city": "7b07bdc0-0194-498e-ac5e-7c7bacfe6e4d"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "7a093929-05fb-4aa2-b53a-979d265f9bd5",
+    "fields": {
+      "code": "BAR72",
+      "name": "California",
+      "city": "7b07bdc0-0194-498e-ac5e-7c7bacfe6e4d"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "7a66bcb3-6633-490b-999a-5abe5a419cca",
+    "fields": {
+      "code": "BAK23",
+      "name": "Holiday Inn Silom",
+      "city": "a9ccfaf8-7032-460e-9aaa-1743ee0df5db"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "7b1c1941-4338-407e-b59f-8740b10f5764",
+    "fields": {
+      "code": "BAR47",
+      "name": "Catal. Duques de Bergara",
+      "city": "7b07bdc0-0194-498e-ac5e-7c7bacfe6e4d"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "7bf578d8-02a9-45e6-8b09-d8b97f62a37b",
+    "fields": {
+      "code": "BER18",
+      "name": "Metropolitan Hansa",
+      "city": "85b76d3b-1ef9-4869-8b87-694401bb8c7a"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "80312586-85fe-4c70-ad28-b15b4c5820cf",
+    "fields": {
+      "code": "BER04",
+      "name": "Comfort Weissensee",
+      "city": "85b76d3b-1ef9-4869-8b87-694401bb8c7a"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "82623468-2f93-46f6-99bc-01dfac69834b",
+    "fields": {
+      "code": "ATH01",
+      "name": "Evripides",
+      "city": "acc538a5-4786-4760-b83d-6095b5458463"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "83525c9d-be8f-47f0-8464-3601f0e25c43",
+    "fields": {
+      "code": "BAR71",
+      "name": "Avinyo",
+      "city": "7b07bdc0-0194-498e-ac5e-7c7bacfe6e4d"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "83c85117-96c3-4321-a95c-ec5162a08a44",
+    "fields": {
+      "code": "ANT90",
+      "name": "Ramada Plaza",
+      "city": "9d760e38-e0d7-4cf6-bb8e-1f19fbbf36a9"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "83dd7e70-d23f-48cd-a193-1b81240d3476",
+    "fields": {
+      "code": "ANT04",
+      "name": "Astoria",
+      "city": "9d760e38-e0d7-4cf6-bb8e-1f19fbbf36a9"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "85469f24-9c6f-4a32-9370-d436876e8979",
+    "fields": {
+      "code": "ANT92",
+      "name": "Express by Holiday Inn",
+      "city": "9d760e38-e0d7-4cf6-bb8e-1f19fbbf36a9"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "86a421cc-72cc-45b8-9ec3-8fe8f17fd4c1",
+    "fields": {
+      "code": "BAR16",
+      "name": "Catalonia Atenas",
+      "city": "7b07bdc0-0194-498e-ac5e-7c7bacfe6e4d"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "86b34755-898c-42cd-8dc6-6d1066fdd830",
+    "fields": {
+      "code": "BAR15",
+      "name": "Citypark Nicaragua",
+      "city": "7b07bdc0-0194-498e-ac5e-7c7bacfe6e4d"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "88a78385-cf60-47c3-8369-fd9e0a8c1ebe",
+    "fields": {
+      "code": "BAR96",
+      "name": "Ciutat de Barcelona",
+      "city": "7b07bdc0-0194-498e-ac5e-7c7bacfe6e4d"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "8bb82601-5c74-439f-ac2e-491a47c4f0fa",
+    "fields": {
+      "code": "BARA7",
+      "name": "Del Mar",
+      "city": "7b07bdc0-0194-498e-ac5e-7c7bacfe6e4d"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "8cb90f8e-09a1-4fff-822c-26c04aaa7a95",
+    "fields": {
+      "code": "BAR63",
+      "name": "Catalonia Berna",
+      "city": "7b07bdc0-0194-498e-ac5e-7c7bacfe6e4d"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "8ccb77f2-00c4-4491-a677-6bd8c7fa6c43",
+    "fields": {
+      "code": "ANT07",
+      "name": "Carlton",
+      "city": "9d760e38-e0d7-4cf6-bb8e-1f19fbbf36a9"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "9080f816-3dfd-4c82-90ab-8fcf8b81d6d9",
+    "fields": {
+      "code": "ATH05",
+      "name": "Esperia Palace",
+      "city": "acc538a5-4786-4760-b83d-6095b5458463"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "91ec4639-72bd-4fe5-9483-d8a989281fd3",
+    "fields": {
+      "code": "BER16",
+      "name": "Ramada Plaza",
+      "city": "85b76d3b-1ef9-4869-8b87-694401bb8c7a"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "91fcf783-a300-4d4a-b86b-c1c11345161d",
+    "fields": {
+      "code": "BAR19",
+      "name": "Silken Concordia",
+      "city": "7b07bdc0-0194-498e-ac5e-7c7bacfe6e4d"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "9333f17e-bb57-40b9-a0a9-5a110b0064e7",
+    "fields": {
+      "code": "BARA9",
+      "name": "H10 Raco del Pi",
+      "city": "7b07bdc0-0194-498e-ac5e-7c7bacfe6e4d"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "9533ca55-a062-452b-97e4-2b5e86df81f8",
+    "fields": {
+      "code": "BER06",
+      "name": "City Amaryl",
+      "city": "85b76d3b-1ef9-4869-8b87-694401bb8c7a"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "97e01c30-d1f9-4840-bb93-3a9458586c98",
+    "fields": {
+      "code": "BER13",
+      "name": "Melia Berlin",
+      "city": "85b76d3b-1ef9-4869-8b87-694401bb8c7a"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "9cd337f2-b492-4f3f-bf94-614bc479f7ea",
+    "fields": {
+      "code": "BAR42",
+      "name": "Park",
+      "city": "7b07bdc0-0194-498e-ac5e-7c7bacfe6e4d"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "9e4c6898-5d20-4b42-91e5-d7f64490d8ab",
+    "fields": {
+      "code": "BER22",
+      "name": "Citadines",
+      "city": "85b76d3b-1ef9-4869-8b87-694401bb8c7a"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "9f07e14e-02a4-43db-836a-5ce78e01e917",
+    "fields": {
+      "code": "BAK81",
+      "name": "Windsor Suites",
+      "city": "a9ccfaf8-7032-460e-9aaa-1743ee0df5db"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "a070a2e4-66fe-4448-892e-f2b541ca8ae4",
+    "fields": {
+      "code": "BAR12",
+      "name": "Principal",
+      "city": "7b07bdc0-0194-498e-ac5e-7c7bacfe6e4d"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "a2a0ec40-2420-4aef-8484-79e6461700bf",
+    "fields": {
+      "code": "BAR34",
+      "name": "Rialto",
+      "city": "7b07bdc0-0194-498e-ac5e-7c7bacfe6e4d"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "a466f051-f546-4fb1-8126-d5e45355acf2",
+    "fields": {
+      "code": "BARA8",
+      "name": "Majestic",
+      "city": "7b07bdc0-0194-498e-ac5e-7c7bacfe6e4d"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "a4730695-d04a-4c44-a036-335b69a4bc94",
+    "fields": {
+      "code": "BAR04",
+      "name": "AutoHogar",
+      "city": "7b07bdc0-0194-498e-ac5e-7c7bacfe6e4d"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "a5edc6e6-da88-462f-a9cd-4eabe5c9917a",
+    "fields": {
+      "code": "BAR51",
+      "name": "Rivoli Ramblas",
+      "city": "7b07bdc0-0194-498e-ac5e-7c7bacfe6e4d"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "a6540119-5aa9-440a-8748-d7e9e6d95e12",
+    "fields": {
+      "code": "BAR88",
+      "name": "Almirante Confortel",
+      "city": "7b07bdc0-0194-498e-ac5e-7c7bacfe6e4d"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "a8112482-3143-4c74-b5ac-488f1d6dc60c",
+    "fields": {
+      "code": "BER01",
+      "name": "Quality City-East",
+      "city": "85b76d3b-1ef9-4869-8b87-694401bb8c7a"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "ab4cc1bf-09e0-47b5-8f1e-31d71cf3ff99",
+    "fields": {
+      "code": "BAR89",
+      "name": "Evenia Rocafort",
+      "city": "7b07bdc0-0194-498e-ac5e-7c7bacfe6e4d"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "ac32b253-c726-4a2c-b9e5-a519b87c0fb5",
+    "fields": {
+      "code": "BAK31",
+      "name": "Windsor Suites",
+      "city": "a9ccfaf8-7032-460e-9aaa-1743ee0df5db"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "aee9fab3-6458-47dc-be15-299800a189b3",
+    "fields": {
+      "code": "BAR03",
+      "name": "Comercio",
+      "city": "7b07bdc0-0194-498e-ac5e-7c7bacfe6e4d"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "afbc17d8-2571-4586-9d17-76ba53708857",
+    "fields": {
+      "code": "BAR07",
+      "name": "Borne",
+      "city": "7b07bdc0-0194-498e-ac5e-7c7bacfe6e4d"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "b148e317-f805-4542-9c72-640f1fc5201d",
+    "fields": {
+      "code": "BAR01",
+      "name": "Rialto",
+      "city": "7b07bdc0-0194-498e-ac5e-7c7bacfe6e4d"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "b1e4a06d-ee1f-460d-9dd5-92191f5909bc",
+    "fields": {
+      "code": "BARB2",
+      "name": "Colon",
+      "city": "7b07bdc0-0194-498e-ac5e-7c7bacfe6e4d"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "b20b1813-d980-418c-9bae-8764032cc1f1",
+    "fields": {
+      "code": "BAR35",
+      "name": "Ramblas",
+      "city": "7b07bdc0-0194-498e-ac5e-7c7bacfe6e4d"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "b3a28edc-f9fd-4c5e-b2ee-80b46110adee",
+    "fields": {
+      "code": "BAR28",
+      "name": "Del Comte",
+      "city": "7b07bdc0-0194-498e-ac5e-7c7bacfe6e4d"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "b3b8fe28-019c-4883-a3e4-daa1252d12c2",
+    "fields": {
+      "code": "BAR60",
+      "name": "Catalonia Princesa",
+      "city": "7b07bdc0-0194-498e-ac5e-7c7bacfe6e4d"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "b3bef19d-ffbd-41d1-b35e-8c110b263a44",
+    "fields": {
+      "code": "BAR39",
+      "name": "Catalonia Berna",
+      "city": "7b07bdc0-0194-498e-ac5e-7c7bacfe6e4d"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "b53b0c28-eb97-4a8e-8800-227b5f0bd463",
+    "fields": {
+      "code": "ANT12",
+      "name": "Radisson SAS Park Lane",
+      "city": "9d760e38-e0d7-4cf6-bb8e-1f19fbbf36a9"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "b6e9a50d-1745-4262-b2a0-d32a888db3af",
+    "fields": {
+      "code": "BAK70",
+      "name": "Narai",
+      "city": "a9ccfaf8-7032-460e-9aaa-1743ee0df5db"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "b7467941-4124-4a78-82bc-470b1b873bca",
+    "fields": {
+      "code": "BER21",
+      "name": "Estrel",
+      "city": "85b76d3b-1ef9-4869-8b87-694401bb8c7a"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "b8635411-fdbb-4e7e-ad47-6a8564a70a81",
+    "fields": {
+      "code": "BAR06",
+      "name": "Catalonia Aragon",
+      "city": "7b07bdc0-0194-498e-ac5e-7c7bacfe6e4d"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "b88f44e2-589f-40c2-8ba4-546f8f2765e3",
+    "fields": {
+      "code": "ANT94",
+      "name": "Corinthia Antwerp",
+      "city": "9d760e38-e0d7-4cf6-bb8e-1f19fbbf36a9"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "b9ca254d-09a9-480d-a0f6-9751886bf791",
+    "fields": {
+      "code": "BER19",
+      "name": "Ellington",
+      "city": "85b76d3b-1ef9-4869-8b87-694401bb8c7a"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "b9cdcb1d-611b-4ee8-8b12-363f69060484",
+    "fields": {
+      "code": "BAR73",
+      "name": "Guardia",
+      "city": "7b07bdc0-0194-498e-ac5e-7c7bacfe6e4d"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "bb6cb2b9-748d-4d2f-a2c5-443c4334dc91",
+    "fields": {
+      "code": "BAR31",
+      "name": "Amister",
+      "city": "7b07bdc0-0194-498e-ac5e-7c7bacfe6e4d"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "bb93c28f-fd50-4c60-b646-5927f22fde1e",
+    "fields": {
+      "code": "BAR76",
+      "name": "H10 Montcada",
+      "city": "7b07bdc0-0194-498e-ac5e-7c7bacfe6e4d"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "bc5e4f99-67a7-4b2c-8c8f-a216ed1146f5",
+    "fields": {
+      "code": "BARB8",
+      "name": "Residencia Erasmus Gracia",
+      "city": "7b07bdc0-0194-498e-ac5e-7c7bacfe6e4d"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "bd7ae3b9-6e4c-4e7f-a330-fbc3d482f8f2",
+    "fields": {
+      "code": "BAR70",
+      "name": "Glories",
+      "city": "7b07bdc0-0194-498e-ac5e-7c7bacfe6e4d"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "bfaf0615-93ef-4273-83e3-9acf24d55d26",
+    "fields": {
+      "code": "BAK74",
+      "name": "Triple Two Silom (222)",
+      "city": "a9ccfaf8-7032-460e-9aaa-1743ee0df5db"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "c057368e-cff9-47ac-9b49-114241ab8fd5",
+    "fields": {
+      "code": "ANT02",
+      "name": "Eden",
+      "city": "9d760e38-e0d7-4cf6-bb8e-1f19fbbf36a9"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "c1b0703a-c428-4ae1-b48f-ac102bd642fd",
+    "fields": {
+      "code": "BAR29",
+      "name": "Citypark Pelayo",
+      "city": "7b07bdc0-0194-498e-ac5e-7c7bacfe6e4d"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "c22499c4-a373-4ec5-906d-c855d24f387a",
+    "fields": {
+      "code": "BAR56",
+      "name": "Catalonia Aragon",
+      "city": "7b07bdc0-0194-498e-ac5e-7c7bacfe6e4d"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "c2c8c752-4610-4657-a98d-0c65492cb124",
+    "fields": {
+      "code": "BAR78",
+      "name": "Gran Barcino",
+      "city": "7b07bdc0-0194-498e-ac5e-7c7bacfe6e4d"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "c6baa516-7e94-4fea-897c-fde191fcc49d",
+    "fields": {
+      "code": "BAK25",
+      "name": "Millennium Hilton Bangkok",
+      "city": "a9ccfaf8-7032-460e-9aaa-1743ee0df5db"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "c70db2f2-33d5-4f42-971d-9068e4e2e672",
+    "fields": {
+      "code": "BAR33",
+      "name": "Calabria",
+      "city": "7b07bdc0-0194-498e-ac5e-7c7bacfe6e4d"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "c7f8f554-d907-4974-8c5c-92b51acf99ee",
+    "fields": {
+      "code": "BAR74",
+      "name": "Del Mar",
+      "city": "7b07bdc0-0194-498e-ac5e-7c7bacfe6e4d"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "c833627b-a7db-49e6-a1ac-97b387b069b2",
+    "fields": {
+      "code": "BAK21",
+      "name": "Windsor Suites",
+      "city": "a9ccfaf8-7032-460e-9aaa-1743ee0df5db"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "cac2f6f4-9bf9-4542-bb8f-1c58e283c8ed",
+    "fields": {
+      "code": "ANT97",
+      "name": "Astoria",
+      "city": "9d760e38-e0d7-4cf6-bb8e-1f19fbbf36a9"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "cadc842b-1706-4a15-b56b-8ba1adcdc48b",
+    "fields": {
+      "code": "ANT89",
+      "name": "Express by Holiday Inn",
+      "city": "9d760e38-e0d7-4cf6-bb8e-1f19fbbf36a9"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "cb43ebd7-dea7-4d72-93fe-c8f902589b1f",
+    "fields": {
+      "code": "BAR05",
+      "name": "Arc la Rambla",
+      "city": "7b07bdc0-0194-498e-ac5e-7c7bacfe6e4d"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "cc140742-a645-4ca6-b4e5-6a6f79a4e2c9",
+    "fields": {
+      "code": "BARC7",
+      "name": "FC Barcelona-Real in 3*",
+      "city": "7b07bdc0-0194-498e-ac5e-7c7bacfe6e4d"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "cd3c19dd-e35c-48da-855e-c499017e8736",
+    "fields": {
+      "code": "BAR62",
+      "name": "Ramblas",
+      "city": "7b07bdc0-0194-498e-ac5e-7c7bacfe6e4d"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "cf871791-a476-4709-a53b-d4c516e52a57",
+    "fields": {
+      "code": "BARB1",
+      "name": "NH Duc de la Victoria",
+      "city": "7b07bdc0-0194-498e-ac5e-7c7bacfe6e4d"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "d880afee-dbab-4c27-adba-296dbda34fcd",
+    "fields": {
+      "code": "BAR46",
+      "name": "Barcelona Princess",
+      "city": "7b07bdc0-0194-498e-ac5e-7c7bacfe6e4d"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "d8e94f7c-3471-4b7d-8890-2e14b37ba4d9",
+    "fields": {
+      "code": "ATH03",
+      "name": "Amaryllis Inn",
+      "city": "acc538a5-4786-4760-b83d-6095b5458463"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "dbe1afb9-2e46-4ce0-be94-4b60e6a62801",
+    "fields": {
+      "code": "BAR91",
+      "name": "Espana",
+      "city": "7b07bdc0-0194-498e-ac5e-7c7bacfe6e4d"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "df04e391-5c39-46c3-a825-f62eebf2102e",
+    "fields": {
+      "code": "BAR59",
+      "name": "Catalonia Atenas",
+      "city": "7b07bdc0-0194-498e-ac5e-7c7bacfe6e4d"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "e30f8afb-33c5-427b-aa9a-2e51068c82ee",
+    "fields": {
+      "code": "BAR17",
+      "name": "Rege",
+      "city": "7b07bdc0-0194-498e-ac5e-7c7bacfe6e4d"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "e327abca-c779-4e94-ab12-44fc356bba80",
+    "fields": {
+      "code": "BAR08",
+      "name": "Santa Marta",
+      "city": "7b07bdc0-0194-498e-ac5e-7c7bacfe6e4d"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "e3a5ee9d-94e4-4927-a09a-5269cafb2280",
+    "fields": {
+      "code": "BAR30",
+      "name": "Habitat Sky",
+      "city": "7b07bdc0-0194-498e-ac5e-7c7bacfe6e4d"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "e3e9f6c3-eb45-4a77-9683-2e3e492acef8",
+    "fields": {
+      "code": "ATH06",
+      "name": "Fresh",
+      "city": "acc538a5-4786-4760-b83d-6095b5458463"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "e487ffe0-942a-4339-bfce-2378c9f3ec74",
+    "fields": {
+      "code": "BER03",
+      "name": "Agon Opera am Kurfürstendamm",
+      "city": "85b76d3b-1ef9-4869-8b87-694401bb8c7a"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "e4e1e912-8dff-442f-8d08-609d545b1e0d",
+    "fields": {
+      "code": "BAR37",
+      "name": "Principal",
+      "city": "7b07bdc0-0194-498e-ac5e-7c7bacfe6e4d"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "e62ca6f0-3764-44d9-b4ba-585fbd0c7bd4",
+    "fields": {
+      "code": "ANT79",
+      "name": "Carlton",
+      "city": "9d760e38-e0d7-4cf6-bb8e-1f19fbbf36a9"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "e83b6e78-e123-4437-9547-ac79ac21d6cb",
+    "fields": {
+      "code": "BAR26",
+      "name": "Torre Catalunya",
+      "city": "7b07bdc0-0194-498e-ac5e-7c7bacfe6e4d"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "eb8bc8d1-dfb2-4873-8e3d-9786d09b2893",
+    "fields": {
+      "code": "ANT99",
+      "name": "Express by Holiday Inn",
+      "city": "9d760e38-e0d7-4cf6-bb8e-1f19fbbf36a9"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "ecf3228b-ec99-427f-9c30-b3c7dac06174",
+    "fields": {
+      "code": "BAR32",
+      "name": "Acevi Villarroel",
+      "city": "7b07bdc0-0194-498e-ac5e-7c7bacfe6e4d"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "ee153ff6-c7e2-4e3f-9c88-885d48e3f3b1",
+    "fields": {
+      "code": "BER10",
+      "name": "Berlin Mark",
+      "city": "85b76d3b-1ef9-4869-8b87-694401bb8c7a"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "ee3f3a8e-e4e5-47ec-b87f-97c9ac384235",
+    "fields": {
+      "code": "ANT01",
+      "name": "Express by Holiday Inn",
+      "city": "9d760e38-e0d7-4cf6-bb8e-1f19fbbf36a9"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "ef6470a0-8f7a-4512-b647-f8aa1651758d",
+    "fields": {
+      "code": "BER14",
+      "name": "Art'Otel Kudamm",
+      "city": "85b76d3b-1ef9-4869-8b87-694401bb8c7a"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "ef8da3ec-0182-48fa-ac7b-c2dbdf8df43e",
+    "fields": {
+      "code": "ANT98",
+      "name": "Express by Holiday Inn",
+      "city": "9d760e38-e0d7-4cf6-bb8e-1f19fbbf36a9"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "f0a4c7fb-4c42-4bce-acad-df094687225f",
+    "fields": {
+      "code": "BAK75",
+      "name": "Millennium Hilton Bangkok",
+      "city": "a9ccfaf8-7032-460e-9aaa-1743ee0df5db"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "f0f13508-0497-452d-8f07-f0f6d36e2349",
+    "fields": {
+      "code": "BAR86",
+      "name": "Expo",
+      "city": "7b07bdc0-0194-498e-ac5e-7c7bacfe6e4d"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "f0fad660-9e3a-48b9-9429-68b1dd36a630",
+    "fields": {
+      "code": "BAR98",
+      "name": "Barcelona Catedral",
+      "city": "7b07bdc0-0194-498e-ac5e-7c7bacfe6e4d"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "f4187145-676b-4c45-979b-d4d4de29b09d",
+    "fields": {
+      "code": "ATH07",
+      "name": "Dorian Inn",
+      "city": "acc538a5-4786-4760-b83d-6095b5458463"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "f5023178-323e-4b9e-bce3-f06da97e471f",
+    "fields": {
+      "code": "BAK20",
+      "name": "Narai",
+      "city": "a9ccfaf8-7032-460e-9aaa-1743ee0df5db"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "f8da6b8a-ec2a-4a19-a28b-e2d2f9c90617",
+    "fields": {
+      "code": "BAR21",
+      "name": "Catalonia Princesa",
+      "city": "7b07bdc0-0194-498e-ac5e-7c7bacfe6e4d"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "fb0b238e-a19a-4857-b9d7-fce8cf6fa7d6",
+    "fields": {
+      "code": "BAR95",
+      "name": "Lami",
+      "city": "7b07bdc0-0194-498e-ac5e-7c7bacfe6e4d"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "fb7ddc05-8b8e-401e-af11-c0fdb10e7498",
+    "fields": {
+      "code": "BAR57",
+      "name": "Santa Marta",
+      "city": "7b07bdc0-0194-498e-ac5e-7c7bacfe6e4d"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "fd1a9860-1e9d-4492-8d12-a7b5f38291c3",
+    "fields": {
+      "code": "BER26",
+      "name": "Winter's Berlin",
+      "city": "85b76d3b-1ef9-4869-8b87-694401bb8c7a"
+    }
+  },
+  {
+    "model": "hotels.hotel",
+    "pk": "fdb148e7-9885-4af1-95c7-9449ed5a5eab",
+    "fields": {
+      "code": "AMS01",
+      "name": "Ibis Amsterdam Airport",
+      "city": "27694fa6-55a3-47c6-8971-9ffb48041d17"
+    }
+  }
+]
