@@ -22,6 +22,8 @@ def fetch_csv_data(url: str, username: str, password: str) -> list[list[str]]:
 
 def fetch_hotel_data(city_url: str, hotel_url: str, username: str, password: str):
     """
+    Fetches CSV files with cities and hotels using authenticated HTTP and loads them into the database
+
     The first revision: clear all previous data and load the new one
     This approach has some conflicts with management system.
     I plan to discuss alternative solutions during the interview.
