@@ -11,7 +11,7 @@
 - PostgreSQL is used as the database server
 - NGING is used as the server
 - The project can be run both in development mode using `python manage.py` commands, and in "production" mode using Docker and Docker Compose
-- The built application image is hosted on [DockerHub](khalaimovda/hotel-management:0.1.0)
+- The built application image is hosted on [DockerHub](https://hub.docker.com/repository/docker/khalaimovda/hotel-management/general)
 
 ## TL;DR
 
