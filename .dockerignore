@@ -1,0 +1,10 @@
+**/.git
+**/.gitignore
+**/.venv/
+**/.DS_Store/
+**/venv/
+**/*.log
+**/db.sqlite3
+**/.env
+**/__pycache__
+**/tests/

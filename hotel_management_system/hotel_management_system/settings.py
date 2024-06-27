@@ -19,11 +19,12 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = os.getenv(key='SECRET_KEY', default='django-insecure-)ce5dwh$rln*6#9^heucll7+(f^ms74_z%s@=@g365zj&qext!')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = bool(os.getenv('DEBUG', default='False'))
+DEBUG = os.getenv('DEBUG', default='False') == 'True'
 
 ALLOWED_HOSTS = [
     'localhost',
     '127.0.0.1',
+    'hotel-management',
 ]
 
 
@@ -80,17 +81,23 @@ WSGI_APPLICATION = 'hotel_management_system.wsgi.application'
 ITEMS_PER_PAGE = 15
 
 # Database
-# https://docs.djangoproject.com/en/4.0/ref/settings/#databases
+DB_NAME = os.getenv('DB_NAME')
+DB_USERNAME = os.getenv('DB_USERNAME')
+DB_PASSWORD = os.getenv('DB_PASSWORD')
+
 DB_HOST = os.getenv('DB_HOST')
 DB_HOST = '127.0.0.1' if DB_HOST == 'localhost' else DB_HOST
+
+DB_PORT = os.getenv('DB_PORT')
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': os.getenv('DB_NAME'),
-        'USER': os.getenv('DB_USERNAME'),
-        'PASSWORD': os.getenv('DB_PASSWORD'),
+        'NAME': DB_NAME,
+        'USER': DB_USERNAME,
+        'PASSWORD': DB_PASSWORD,
         'HOST': DB_HOST,
-        'PORT': os.getenv('DB_PORT'),
+        'PORT': DB_PORT,
         'OPTIONS': {
             'isolation_level': IsolationLevel.READ_COMMITTED,
         },
@@ -99,10 +106,23 @@ DATABASES = {
 
 
 # CronJobs
+CRONTAB_COMMAND_PREFIX = (  # "Needed to ensure environment variables are accessible in the cronjob
+    f'CITY_FETCH_URL={CITY_FETCH_URL} '
+    f'HOTEL_FETCH_URL={HOTEL_FETCH_URL} '
+    f'FETCH_USERNAME={FETCH_USERNAME} '
+    f'FETCH_PASSWORD={FETCH_PASSWORD} '
+    
+    f'DB_NAME={DB_NAME} '
+    f'DB_USERNAME={DB_USERNAME} '
+    f'DB_PASSWORD={DB_PASSWORD} '
+    f'DB_HOST={DB_HOST} '
+    f'DB_PORT={DB_PORT}'
+)
+
 CRONJOBS = [
-    # fetch city and hotel data every day
+    # Fetch city and hotel data every day
     (
-        '0 0 * * *',
+        '0 0 * * *',  # '* * * * *' -- for execution every minute
         'hotels.jobs.fetch_hotel_data',
         [],
         {
@@ -139,7 +159,7 @@ LOGGING = {
         'file': {
             'level': 'DEBUG',
             'class': 'logging.FileHandler',
-            'filename': BASE_DIR / 'logfile.log',
+            'filename': BASE_DIR / 'logs/logfile.log',
             'formatter': 'verbose',
         },
     },
@@ -189,9 +209,8 @@ USE_TZ = True
 
 
 # Static files (CSS, JavaScript, Images)
-# https://docs.djangoproject.com/en/4.0/howto/static-files/
-
 STATIC_URL = 'static/'
+STATIC_ROOT = BASE_DIR / 'static'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field

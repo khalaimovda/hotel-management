@@ -1,0 +1,53 @@
+services:
+  db:
+    image: postgres:16.3
+    container_name: hotel-management-db
+    restart: always
+    environment:
+      POSTGRES_DB: hotels
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - "5432:5432"
+    volumes:
+      - hotel_management_db:/var/lib/postgresql/data/
+
+  hotel-management:
+    image: "khalaimovda/hotel-management:0.1.0"
+    container_name: hotel-management
+    restart: always
+    command: "gunicorn hotel_management_system.wsgi --bind 0.0.0.0:8000"
+    ports:
+      - "8000:8000"
+    environment:
+      DB_HOST: hotel-management-db
+      DB_PORT: "5432"
+      DB_NAME: hotels
+      DB_USERNAME: postgres
+      DB_PASSWORD: postgres
+      CITY_FETCH_URL: "http://rachel.maykinmedia.nl/djangocase/city.csv"
+      HOTEL_FETCH_URL: "http://rachel.maykinmedia.nl/djangocase/hotel.csv"
+      FETCH_USERNAME: "python-demo"
+      FETCH_PASSWORD: "claw30_bumps"
+      SECRET_KEY: "vvt-f5um!n)%51)#qu^1*&730qhk%m-es252!w#43-u$6-*edq"
+      DEBUG: "False"
+    volumes:
+      - static_value:/app/static/
+      - ./compose-volumes/logs/:/app/logs/
+    depends_on:
+      - db
+
+  nginx:
+    image: nginx:1.27.0-alpine
+    container_name: hotel-management-nginx
+    ports:
+      - "80:80"
+    volumes:
+      - ./compose-volumes/nginx/:/etc/nginx/conf.d/
+      - static_value:/var/html/static/
+    depends_on:
+      - hotel-management
+
+volumes:
+  hotel_management_db:
+  static_value:
