@@ -9,7 +9,7 @@
 - The project includes Django unit tests that verify the main functionality of the application
 - [Poetry](https://python-poetry.org) is used as the dependency manager
 - PostgreSQL is used as the database server
-- NGING is used as the server
+- NGINX is used as the server
 - The project can be run both in development mode using `python manage.py` commands, and in "production" mode using Docker and Docker Compose
 - The built application image is hosted on [DockerHub](https://hub.docker.com/repository/docker/khalaimovda/hotel-management/general)
 
